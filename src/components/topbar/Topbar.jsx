@@ -1,9 +1,9 @@
 import "./topbar.scss"
 import {PersonPin, MailOutline} from "@material-ui/icons"
 
-function Topbar() {
+function Topbar({ menuOpen, setMenuOpen }) {
     return (
-        <div className="topbar">
+        <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
                     <a href="#intro" className="logo">.genius</a>
