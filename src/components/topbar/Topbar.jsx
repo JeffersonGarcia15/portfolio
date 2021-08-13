@@ -6,7 +6,7 @@ function Topbar({ menuOpen, setMenuOpen }) {
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">.genius</a>
+                    <a href="#intro" className="logo">Jefferson Lopez Garcia</a>
                     <div className="itemContainer">
                         <PersonPin className="icon"></PersonPin>
                         <span>(617) 970 5004</span>

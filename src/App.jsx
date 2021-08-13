@@ -3,6 +3,8 @@ import Intro from "./components/intro/Intro"
 import Portfolio from "./components/portfolio/Portfolio"
 import Contact from "./components/contact/Contact" 
 import Projects from "./components/projects/Projects"
+import Menu from "./components/menu/Menu"
+
 import "./app.scss"
 import { useState } from 'react'
 
@@ -11,6 +13,7 @@ function App() {
   return (
     <div className="app">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}></Topbar>
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}></Menu>
       <div className="sections">
         <Intro></Intro>
         <Portfolio></Portfolio>
