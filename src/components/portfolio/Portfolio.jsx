@@ -55,8 +55,11 @@ function Portfolio() {
             <div className="container">
                 {data.map((data, idx) => (
                     <div className='item' key={idx}>
+                        <a href={data.url}>
                         <img src={data.img} alt={data.title} />
                         <h3>{data.title}</h3>
+
+                        </a>
                     </div>
                 ))}
             </div>
