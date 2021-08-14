@@ -37,13 +37,15 @@
          transition: all .5s ease;
          cursor: pointer;
 
-         h3{
+         a{
             position: absolute;
             font-size: 20px;
             display: flex;
             align-items: center;
             justify-content: center;
             padding-left: 12.5%;
+            text-decoration: none;
+            color: white;
          }
          img{
             width: 100%;

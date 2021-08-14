@@ -1,5 +1,3 @@
-import { DiPython, DiReact, DiNodejs } from 'react-icons/di'
-import { SiJavascript, SiRedux, SiDocker, SiHeroku, SiFlask, SiPostgresql, SiPostman, SiAmazonaws, SiHtml5, SiCss3, SiMaterialUi } from 'react-icons/si'
 import "./skill.scss"
 
 export default function Skill() {
@@ -28,7 +26,7 @@ export default function Skill() {
                 <i class="devicon-xd-plain colored"></i>
 
             </div>
-            
+
         </div>
     )
 }
