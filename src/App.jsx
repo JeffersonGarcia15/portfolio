@@ -2,7 +2,7 @@ import Topbar from "./components/topbar/Topbar"
 import Intro from "./components/intro/Intro"
 import Portfolio from "./components/portfolio/Portfolio"
 import Contact from "./components/contact/Contact" 
-import Projects from "./components/projects/Projects"
+import Skills from "./components/skills/Skill"
 import Menu from "./components/menu/Menu"
 
 import "./app.scss"
@@ -17,7 +17,7 @@ function App() {
       <div className="sections">
         <Intro></Intro>
         <Portfolio></Portfolio>
-        <Projects></Projects>
+        <Skills></Skills>
         <Contact></Contact>
       </div>
     </div>
