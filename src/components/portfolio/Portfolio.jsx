@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react"
 import "./portfolio.scss"
 import PortfolioList from "../portfolioList/PortfolioList"
+import { featuredPortfolio, tableForTwoPortfolio, universeJFPortfolio, ddiyPortfolio } from "../../data"
 
 function Portfolio() {
     const [selected, setSelected] = useState("featured")
+    const [data, setData] = useState([])
     const list = [
         {
             id: 'featured',
@@ -22,6 +24,26 @@ function Portfolio() {
             title: "DDIY - Question And Answer Site"
         },
     ]
+
+    useEffect(() => {
+        switch (selected) {
+            case "featured":
+                setData(featuredPortfolio);
+                break;
+            case "table-for-two":
+                setData(tableForTwoPortfolio);
+                break;
+            case "universe-jf":
+                setData(universeJFPortfolio);
+                break;
+            case "ddiy":
+                setData(ddiyPortfolio);
+                break;
+            default:
+                setData(featuredPortfolio);
+        }
+    }, [selected])
+
     return (
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
@@ -31,10 +53,12 @@ function Portfolio() {
                 ))}
             </ul>
             <div className="container">
-                <div className="item">
-                    <img src="https://astrogram.s3.us-east-2.amazonaws.com/Screen+Shot+2021-08-13+at+6.39.45+AM.png" alt="DDIY" />
-                    <h3>DDIY - Question and Answer Site</h3>
-                </div>
+                {data.map((data, idx) => (
+                    <div className='item' key={idx}>
+                        <img src={data.img} alt={data.title} />
+                        <h3>{data.title}</h3>
+                    </div>
+                ))}
             </div>
         </div>
     )
