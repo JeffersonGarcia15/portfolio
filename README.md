@@ -1,6 +1,6 @@
 # My Portfolio Site
 
-My inspiration for this portfolio was from this (video)[https://www.youtube.com/watch?v=7WwtzsSHdpI&t=8379s], all the credit goes to the creator of that video.
+My inspiration for this portfolio was from this [video](https://www.youtube.com/watch?v=7WwtzsSHdpI&t=8379s), all the credit goes to the creator of that video.
 
 Instead of using a template from GitHub pages, I decided to use a different template but this time using React, while giving it my own touch like using [formspree](https://formspree.io) to enable anyone visiting my portfolio to have the option to successfully email me through my portfolio and to redirect users to my list of projects by clicking on the list of photos in each section. The email part was particularly challenging, and spent a few hours doing research to come up with a solution. 
 
