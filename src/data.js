@@ -42,47 +42,47 @@ export const featuredPortfolio = [
     },
 ]
 
-export const tableForTwoPortfolio = [
+export const twitterCloneGoLang = [
     {
         id: 1,
-        title: "Table-For-Two Login",
-        img: "https://mylovetable.s3.us-east-2.amazonaws.com/table-for-two/table-login.png",
-        url: "https://table-42.herokuapp.com/"
+        title: "Twitter-Clone Login",
+        img: "https://mylovetable.s3.us-east-2.amazonaws.com/login-twitter.png",
+        url: "https://twitter-jefferson.netlify.app/"
 
     },
     {
         id: 2,
-        title: "Table-For-Two Signup",
-        img: "https://mylovetable.s3.us-east-2.amazonaws.com/table-for-two/table-signup.png",
-        url: "https://table-42.herokuapp.com/"
+        title: "Twitter-Clone Signup",
+        img: "https://mylovetable.s3.us-east-2.amazonaws.com/signup-twitter.png",
+        url: "https://twitter-jefferson.netlify.app/"
 
     },
     {
         id: 3,
-        title: "Table-For-Two Reservation",
-        img: "https://mylovetable.s3.us-east-2.amazonaws.com/table-for-two/table-reservation.png",
-        url: "https://table-42.herokuapp.com/"
+        title: "Twitter-Clone Home",
+        img: "https://mylovetable.s3.us-east-2.amazonaws.com/home-twitter.png",
+        url: "https://twitter-jefferson.netlify.app/"
 
     },
     {
         id: 4,
-        title: "Table-For-Two Reviews",
-        img: "https://mylovetable.s3.us-east-2.amazonaws.com/table-for-two/table-reviews.png",
-        url: "https://table-42.herokuapp.com/"
+        title: "Twitter-Clone Edit",
+        img: "https://mylovetable.s3.us-east-2.amazonaws.com/edit-twitter.png",
+        url: "https://twitter-jefferson.netlify.app/"
 
     },
     {
         id: 5,
-        title: "Table-For-Two Search",
-        img: "https://mylovetable.s3.us-east-2.amazonaws.com/table-for-two/table-search.png",
-        url: "https://table-42.herokuapp.com/"
+        title: "Twitter-Clone Search",
+        img: "https://mylovetable.s3.us-east-2.amazonaws.com/filter-twitter.png",
+        url: "https://twitter-jefferson.netlify.app/"
 
     },
     {
         id: 6,
-        title: "Table-For-Two Review-Form",
-        img: "https://mylovetable.s3.us-east-2.amazonaws.com/table-for-two/table-review-form.png",
-        url: "https://table-42.herokuapp.com/"
+        title: "Twitter-Clone Tweet",
+        img: "https://mylovetable.s3.us-east-2.amazonaws.com/tweet.png",
+        url: "https://twitter-jefferson.netlify.app/"
 
     },
 ]

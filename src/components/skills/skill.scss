@@ -1,6 +1,12 @@
+@import '../../global.scss';
+
 .skills{
     background-color: white;
-    padding: 100px 20px;
+    padding: 50px 20px;
+
+    @include mobile{
+        padding: 20px 0;
+    }
 
 }
 
@@ -18,9 +24,21 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0 200px;
+
+    @include mobile{
+    //    font-size: 10px;
+        margin: 0; 
+        width: 100%;
+    }
 }
 
 .list-of-skills i {
-    font-size: 105px;
+    font-size: 70px;
     margin: 20px;
+
+    @include mobile{
+       font-size: 70px;
+        margin: 10px; 
+    }
 }
+

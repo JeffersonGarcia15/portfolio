@@ -1,7 +1,12 @@
 import { useEffect, useState } from "react"
 import "./portfolio.scss"
 import PortfolioList from "../portfolioList/PortfolioList"
-import { featuredPortfolio, tableForTwoPortfolio, universeJFPortfolio, ddiyPortfolio } from "../../data"
+import {
+  featuredPortfolio,
+  twitterCloneGoLang,
+  universeJFPortfolio,
+  ddiyPortfolio,
+} from "../../data";
 
 function Portfolio() {
     const [selected, setSelected] = useState("featured")
@@ -12,8 +17,8 @@ function Portfolio() {
             title: "Featured"
         },
         {
-            id: 'table-for-two',
-            title: "A clone of Open Table"
+            id: 'twitter-go',
+            title: "Twitter with Go/MongoDB"
         },
         {
             id: 'universe-jf',
@@ -30,8 +35,8 @@ function Portfolio() {
             case "featured":
                 setData(featuredPortfolio);
                 break;
-            case "table-for-two":
-                setData(tableForTwoPortfolio);
+            case "twitter-go":
+                setData(twitterCloneGoLang);
                 break;
             case "universe-jf":
                 setData(universeJFPortfolio);
