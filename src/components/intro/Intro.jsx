@@ -23,7 +23,7 @@ function Intro() {
         <div className="left">
           <div className="img-container">
             <img
-              src="https://astrogram.s3.us-east-2.amazonaws.com/profile.jpg"
+              src="https://mylovetable.s3.us-east-2.amazonaws.com/Image+from+iOS.jpg"
               alt="profile-image"
             />
           </div>
