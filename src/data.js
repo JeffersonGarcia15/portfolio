@@ -3,41 +3,41 @@ export const featuredPortfolio = [
         id: 1,
         title: "(flask-sqlalchemy, material-ui, css3, awsS3, docker, react, redux, googleAuth)",
         img: "https://astrogram.s3.us-east-2.amazonaws.com/Astrogram-photos/login.png",
-        url: "https://astrogram-jeff.herokuapp.com"
+        url: "https://astrogram-jeff.onrender.com"
     },
     {
         id: 2,
         title: "(flask-sqlalchemy, material-ui, css3, awsS3, docker, react, redux, googleAuth)",
         img: "https://astrogram.s3.us-east-2.amazonaws.com/Astrogram-photos/signup.png",
-        url: "https://astrogram-jeff.herokuapp.com"
+        url: "https://astrogram-jeff.onrender.com"
 
     },
     {
         id: 3,
         title: "(flask-sqlalchemy, material-ui, css3, awsS3, docker, react, redux, googleAuth)",
         img: "https://astrogram.s3.us-east-2.amazonaws.com/Astrogram-photos/feed.png",
-        url: "https://astrogram-jeff.herokuapp.com"
+        url: "https://astrogram-jeff.onrender.com"
 
     },
     {
         id: 4,
         title: "(flask-sqlalchemy, material-ui, css3, awsS3, docker, react, redux, googleAuth)",
         img: "https://astrogram.s3.us-east-2.amazonaws.com/Astrogram-photos/profile.png",
-        url: "https://astrogram-jeff.herokuapp.com"
+        url: "https://astrogram-jeff.onrender.com"
 
     },
     {
         id: 5,
         title: "(flask-sqlalchemy, material-ui, css3, awsS3, docker, react, redux, googleAuth)",
         img: "https://mylovetable.s3.us-east-2.amazonaws.com/universeJF/ddiy-photos/Screen+Shot+2021-08-14+at+3.05.15+AM.png",
-        url: "https://astrogram-jeff.herokuapp.com"
+        url: "https://astrogram-jeff.onrender.com"
 
     },
     {
         id: 6,
         title: "(flask-sqlalchemy, material-ui, css3, awsS3, docker, react, redux, googleAuth)",
         img: "https://astrogram.s3.us-east-2.amazonaws.com/Astrogram-photos/modal.png",
-        url: "https://astrogram-jeff.herokuapp.com"
+        url: "https://astrogram-jeff.onrender.com"
 
     },
 ]
