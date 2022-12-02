@@ -23,9 +23,17 @@ function Topbar({ menuOpen, setMenuOpen }) {
               <span>jeffersongarcia1599@gmail.com</span>
             </div>
             <div className="itemContainer">
-              <PictureAsPdfIcon className="icon">
-              </PictureAsPdfIcon>
-                <a style={{ marginBottom: '4px', textDecoration: 'none', color: 'black'}} href="https://docs.google.com/document/d/1JRd518ykEG-CtkYZUIxwFvEqaN8frPvUKaF6nLxB2a8/edit?usp=sharing">Resume</a>
+              <PictureAsPdfIcon className="icon"></PictureAsPdfIcon>
+              <a
+                style={{
+                  marginBottom: "4px",
+                  textDecoration: "none",
+                  color: "black",
+                }}
+                href="https://docs.google.com/document/d/1P11sq8ZOTPS9IkUPx37VuAeiGNWaDj-lU8t_u8D4Zgs/edit"
+              >
+                Resume
+              </a>
             </div>
           </div>
           <div className="right">
