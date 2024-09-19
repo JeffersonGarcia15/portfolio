@@ -2,10 +2,11 @@ import { useEffect, useState } from "react"
 import "./portfolio.scss"
 import PortfolioList from "../portfolioList/PortfolioList"
 import {
-  featuredPortfolio,
-  twitterCloneGoLang,
-  universeJFPortfolio,
-  ddiyPortfolio,
+    featuredPortfolio,
+    realBnB,
+    twitterCloneGoLang,
+    universeJFPortfolio,
+    ddiyPortfolio,
 } from "../../data";
 
 function Portfolio() {
@@ -15,6 +16,10 @@ function Portfolio() {
         {
             id: 'featured',
             title: "Featured"
+        },
+        {
+            id: 'realBnB',
+            title: "A clone of AirBnB"
         },
         {
             id: 'twitter-go',
@@ -35,6 +40,9 @@ function Portfolio() {
             case "featured":
                 setData(featuredPortfolio);
                 break;
+            case "realBnB":
+                setData(realBnB)
+                break
             case "twitter-go":
                 setData(twitterCloneGoLang);
                 break;
