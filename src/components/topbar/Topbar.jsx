@@ -30,7 +30,8 @@ function Topbar({ menuOpen, setMenuOpen }) {
                 textDecoration: "none",
                 color: "black",
               }}
-              href="https://docs.google.com/document/d/1_djS_cAiSU_ZvaspgFMzI35GydeRi1l5kfSgZvtVdS0/edit?usp=sharing"
+              target="_blank"
+              href="https://docs.google.com/document/d/1KXYEIMUuh78O5Nug3vdZE2uzfefz_JbND3W0FPqTuUo/edit" rel="noreferrer"
             >
               Resume
             </a>

@@ -3,8 +3,8 @@ import "./portfolio.scss"
 import PortfolioList from "../portfolioList/PortfolioList"
 import {
     featuredPortfolio,
-    realBnB,
-    twitterCloneGoLang,
+    // realBnB,
+    // twitterCloneGoLang,
     universeJFPortfolio,
     ddiyPortfolio,
 } from "../../data";
@@ -17,14 +17,14 @@ function Portfolio() {
             id: 'featured',
             title: "Featured"
         },
-        {
-            id: 'realBnB',
-            title: "A clone of AirBnB"
-        },
-        {
-            id: 'twitter-go',
-            title: "Twitter with Go/MongoDB"
-        },
+        // {
+        //     id: 'realBnB',
+        //     title: "A clone of AirBnB"
+        // },
+        // {
+        //     id: 'twitter-go',
+        //     title: "Twitter with Go/MongoDB"
+        // },
         {
             id: 'universe-jf',
             title: "A clone of Flickr"
@@ -40,12 +40,12 @@ function Portfolio() {
             case "featured":
                 setData(featuredPortfolio);
                 break;
-            case "realBnB":
-                setData(realBnB)
-                break
-            case "twitter-go":
-                setData(twitterCloneGoLang);
-                break;
+            // case "realBnB":
+            //     setData(realBnB)
+            //     break
+            // case "twitter-go":
+            //     setData(twitterCloneGoLang);
+            //     break;
             case "universe-jf":
                 setData(universeJFPortfolio);
                 break;
@@ -70,7 +70,7 @@ function Portfolio() {
                     <div className='item' key={idx}>
                         <img src={data.img} alt={data.title} />
                         {/* <h3>{data.title}</h3> */}
-                        <a className='a-tag' href={data.url}>
+                        <a className='a-tag' href={data.url} target="_blank" rel="noreferrer">
                             {data.title}
                         </a>
 
